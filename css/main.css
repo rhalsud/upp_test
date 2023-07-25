@@ -1,0 +1,246 @@
+/* @media (max-width: 500px){
+	//모바일
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    // 테블릿 세로
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    // 테블릿 가로
+}
+
+@media (min-width: 1200px) {
+    // 데스크탑 일반
+} */
+
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+body {
+  background-color: #dddddd;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* width: 100%; */
+}
+a {
+  text-decoration: none;
+}
+.inner {
+  width: 500px;
+  /* height: 100%; */
+  margin: 0 auto;
+  background-color: #ffffff;
+  position: relative;
+  min-height: 100%;
+}
+.btn {
+  /* display: flex;*/
+  /* align-items: center;  */
+  width: 133px;
+  padding: 15px 10px 15px 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #0069CF;
+}
+
+
+
+
+header {
+  height: 66px;
+  /* position: relative; */
+  display: block;
+}
+header .logo {
+  top: 20px;
+  left: 24px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+header a {
+  font-size: 0;
+}
+header img {
+  width: 43px;
+  height: 22px;
+}
+header span {
+  padding-left: 10px;
+  color: #7D7D7D;
+}
+
+
+.container1 .send {
+  display: flex;
+  align-items: center;
+}
+.container1 .send p {
+  /* height: auto; */
+  left: 24px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.4;
+  margin: 9px 172px 9px 24px;
+}
+.container1 .send_btn {
+  width: 133px;
+  height: 48px;
+  position: absolute;
+  right: 24px;
+}
+.container1 .line {
+  height: 2px;
+  background-color: #F0F0F0;
+  margin: 16px 24px 32px 24px;
+}
+.container1 .box-prescription {
+  height: 72px;
+  background-color: #F0F0F0;
+  margin: 0 24px 0 24px;
+  /* margin-bottom: 8px; */
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.container1 .box-prescription img {
+  padding: 0 16px 0 16px;
+}
+.container1 .box-prescription h3 {
+  font-weight: 500;
+  text-decoration: none;
+  color: #1A1E27;
+  margin-bottom: 8px;
+}
+.container1 .box-prescription p {
+  font-size: 12px;
+  text-decoration: none;
+  color: #505866;
+}
+.container1 .history {
+  display: flex;
+  margin-top: 19px;
+  height: 14px;
+  /* align-items: center; */
+}
+.container1 .history_prescription {
+  color: #1A1E27;
+  font-size: 14px;
+  margin: 0 24px 0 24px;
+  position: absolute;
+  right: 0;
+}
+
+.container1 .history_prescription span {
+  font-size: 14px;
+}
+.container1 .line2 {
+  margin-top: 32px;
+  height: 12px;
+  background-color: #F0F0F0;
+}
+.menu_icons {
+  /* height: 100%; */
+}
+.menu_icons h3 {
+  padding-top: 32px;
+  margin-left: 24px;
+  margin-bottom: 24px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.menu_icons .icons {
+  display: flex;
+  text-align: center;
+  margin: 0 24px 0 24px;
+  padding-bottom: 48px;
+}
+.menu_icons .icons .icon {
+  width: 113px;
+}
+.menu_icons .icons .icon a {
+  width: 113px;
+}
+.menu_icons .icons span {
+  display: block;
+  padding-top: 12px;
+  font-size: 14px;
+  color: #1A1E27;
+}
+.menu_icons .board {
+  border-radius: 10px;
+  border: 1px solid #CFCFCF;
+  height: 56px;
+  display: flex;
+  margin: 0 24px 0 24px;
+  font-weight: 500;
+  color: #1A1E27;
+  align-items: center;
+}
+.menu_icons .board .img {
+  width: 34px;
+  height: 29px;
+  background-color: #cfcfcf;
+  margin: 0 16px 0 16px;
+}
+.menu_icons .board span {
+  font-size: 14px;
+  position: absolute;
+  right: 40px;
+}
+.other {
+  padding-bottom: 120px;
+}
+
+.nav {
+  position: fixed;
+  /* position: absolute; */
+  bottom: 0;
+  width: 100%;
+  max-width: 500px;
+}
+.nav .nav_line {
+  width: 100%;
+  height: 1px;
+  background-color: #E6E6EA;
+}
+.nav .nav_icons {
+  display: flex;
+  text-align: center;
+  padding: 10px 0 15px 0;
+  background-color: #fff;
+  /* width: 100%; */
+  /* position: absolute; */
+  /* display: block; */
+}
+.nav .nav_icons .nav_icon {
+  width: 125px;
+  /* display: block; */
+}
+.nav .nav_icons .nav_icon a {
+  width: 125px;
+}
+.nav .nav_icons .nav_icon span {
+  display: block;
+  font-size: 12px;
+  margin-top: 5px;
+  color: #1A1E27;
+}
+.nav .nav_icons .nav_icon .on {
+  color: #0069CF;
+  font-weight: 500;
+}
+
+
+
+
+@media (max-width: 500px) {
+  .inner {
+    width: 100%;
+  }
+}

@@ -1,0 +1,1 @@
+let boxEl = document.querySelector('.box');
