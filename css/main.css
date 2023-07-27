@@ -180,11 +180,11 @@ header span {
   color: #1A1E27;
   align-items: center;
 }
-.menu_icons .board .img {
+.menu_icons .board img {
   width: 34px;
   height: 29px;
-  background-color: #cfcfcf;
-  margin: 0 16px 0 16px;
+  /* background-color: #cfcfcf; */
+  margin: 5px 15px 0 16px;
 }
 .menu_icons .board span {
   font-size: 14px;
